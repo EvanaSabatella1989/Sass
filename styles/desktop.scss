@@ -1,0 +1,32 @@
+$tablet-media-query: 768px;
+$desktop-media-query:992px;
+$Cruise: #c2efe0;
+
+@media screen and (min-width: $tablet-media-query) {
+    nav ul, footer ul{
+      display: flex;
+    }
+    nav ul li{
+      margin: 0px 5px;
+    }
+    .footer{
+      padding: 20px 10px;
+      
+    }
+    .redes{
+      display: flex;
+      /* align-items: center; */
+      justify-content: center;
+    }
+    .footer li{
+      margin: 20px 10px;
+    }
+   }
+  
+  
+   @media screen and (min-width: $desktop-media-query) {
+     main{
+        background-color: $Cruise;
+        
+     }
+   }

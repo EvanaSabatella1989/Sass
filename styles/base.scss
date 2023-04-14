@@ -1,0 +1,191 @@
+$CuttySark:#566b78;
+$MineShaft:#333;
+$Gallery:#eee;
+$Amaranth:#e81c4f;
+$AthensGray: #f5f7f9;
+$Mystic:#D8DEE9;
+$Danube:#6699CC;
+$OuterSpace:#263d36;
+$SilverTree:#5abd8e;
+$Porsche:#e9b85c;
+
+body main{
+    margin: 0 auto; 
+    max-width: 70em;
+    font-family: "Georgia", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 2em 1em;
+    // color: #566b78;
+    color: $CuttySark;
+ }
+
+  html, body{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+  header{
+    text-align: center;
+  }
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+h1,
+h2,
+strong {
+    color: $MineShaft;
+}
+
+table{
+  width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    }
+
+/* th, td {
+    padding: 10px;
+    } */
+
+
+
+div {
+    // background: #eee;
+    background: $Gallery;
+    /* padding: 2px 4px; */
+    vertical-align: text-bottom;
+}
+
+/* div table{
+    margin: 0 auto;
+} */
+
+.redes{
+    list-style: none;
+}
+
+.red{
+    // color : #e81c4f ; 
+    // color: $Amaranth;
+    color: $Amaranth;
+    text-decoration: none;
+ }
+
+ .lista{
+    // background: #f5f7f9;
+    // background: $Athens Gray;
+    background-color: $AthensGray;
+    // border-bottom: 1px solid #d8dee9;
+    border-bottom: 1px solid $Mystic;
+    // border-left: 2px solid #69c;
+    border-left: 2px solid $Danube;
+ }
+
+ .banner {
+    // background-color: #263d36;
+    background-color: $OuterSpace;
+    background-image: url("/img/header.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    
+    /* text-align: center; */
+  } 
+
+  /* .banner img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+    border-radius: 50%;
+  } */
+
+  .logo{
+    display: inline-block;
+    height: 100px;
+    vertical-align: top;
+    /* width: 120px; */
+    border-radius: 50%;
+  }
+
+  .banner h1{
+    margin-bottom: 60px;
+    color: black;
+}
+
+  .banner h2{
+    font-weight: 300;
+    color: black;
+}
+
+
+nav ul{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+nav ul li{
+    /* display: inline-block; */
+    list-style: none;
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    // background: #5abd8e;
+    background: $SilverTree;
+    text-align: center;
+    margin: 5px auto;
+    /* width: 100%;
+    margin-left: 0;
+    padding-left: 0; */
+    
+    
+}
+
+nav a, .redes a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    
+}
+
+footer{
+    text-align: center;
+    // color: #333;
+    color: $MineShaft;
+    margin-bottom: 60px;
+    
+
+}
+
+.footer{
+  padding: 60px 10px;
+}
+
+.footer li{
+  margin: 40px auto;
+}
+
+.boton{
+    
+    padding: 12px 40px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    // background: #e9b85c;
+    background: $Porsche;
+    border-radius: 10px;
+    text-decoration: none;
+}
